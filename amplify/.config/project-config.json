@@ -1,0 +1,17 @@
+{
+  "projectName": "amp04",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "npm run build",
+      "StartCommand": "npm run preview"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
